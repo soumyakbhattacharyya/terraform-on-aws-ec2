@@ -4,7 +4,7 @@
 variable "vpc_name" {
   description = "VPC Name"
   type = string 
-  default = "myvpc"
+  default = "version-1"
 }
 
 # VPC CIDR Block
@@ -55,7 +55,6 @@ variable "vpc_create_database_subnet_route_table" {
   type = bool
   default = true   
 }
-
   
 # VPC Enable NAT Gateway (True or False) 
 variable "vpc_enable_nat_gateway" {

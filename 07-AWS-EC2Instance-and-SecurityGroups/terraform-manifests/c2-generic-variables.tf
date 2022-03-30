@@ -1,4 +1,4 @@
-# Input Variables
+# Generic input variables to be used for all modules
 # AWS Region
 variable "aws_region" {
   description = "Region in which AWS Resources to be created"
@@ -9,11 +9,11 @@ variable "aws_region" {
 variable "environment" {
   description = "Environment Variable used as a prefix"
   type = string
-  default = "dev"
+  default = "development"
 }
 # Business Division
-variable "business_divsion" {
+variable "business_division" {
   description = "Business Division in the large organization this Infrastructure belongs"
   type = string
-  default = "sap"
+  default = "GLFH"
 }
