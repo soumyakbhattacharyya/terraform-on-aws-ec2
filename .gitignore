@@ -16,4 +16,4 @@ FUTURE-TOPICS
 #*.tfvars
 
 # Ignore .pem files
-#*.pem
+*.pem
