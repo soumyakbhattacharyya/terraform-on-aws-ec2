@@ -1,7 +1,8 @@
-# Generic Variables
+# Generic values that gets applied when terraform apply is being used
+# These are auto - loaded values
 aws_region = "us-east-1"
-environment = "stag"
-business_divsion = "HR"
+environment = "development"
+business_division = "GLFH"
 
 
 
